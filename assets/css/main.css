@@ -2571,7 +2571,7 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
-		margin-right: 15px;
+		margin-right: 100px;
 	}
 
 		.image img {
@@ -2897,6 +2897,20 @@ input, select, textarea {
 	#programming-knowledge {
 		/* column-count: 2;
 		column-gap: 40px; */
+	}
+
+	.hidden > a{
+		display: flex;
+		padding-bottom: 1em;
+	}
+
+	.hidden > a{
+		display: flex;
+		padding-bottom: 1em;
+	}
+
+	.image-text {
+		align-items: right;
 	}
 
 	#header {
@@ -4186,7 +4200,7 @@ input, select, textarea {
 			-webkit-flex-shrink: 1;
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
-			padding: 1rem 4rem 2rem 4rem ;
+			padding: 1rem 4rem 1rem 4rem ;
 			border-left: solid 2px #e2e2e2;
 		}
 
